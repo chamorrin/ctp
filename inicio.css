@@ -1,0 +1,88 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Encabezado con logo */
+  .encabezado {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  
+  .logo {
+    width: 60px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  /* Menú de navegación */
+  .menu {
+    background-color: #0055a5;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+  }
+  
+  .menu li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+  }
+  
+  .menu a:hover {
+    background-color: #003f7d;
+    border-radius: 5px;
+  }
+  
+  /* Botón "Postula Hoy" */
+  .btn-postula {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-postula:hover {
+    background-color: #218838;
+  }
+  
+  /* Sección de contenido */
+  .contenido {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+  }
+  
+  /* Pie de página */
+  .footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
